@@ -3,7 +3,8 @@
     <head>
         <title>The best fruit in the world!</title>
         <h1 style="background-color:lightpink">The best fruit in the world!</h1>
- 
+        <link rel="alternate" type="application/rss+xml"
+            href="https://www.w3schools.com" title="W3Schools Home Page">
     </head>
     <body>
     	<img src=https://adriasupply.com/pub/media/catalog/product/cache/926507dc7f93631a094422215b778fe0/m/a/mango-fresh-svjezi-komad-piece-adria-supply-free-delivery-dalmatia-shop-croatia.jpg alt="Simply Easy Learning" width="360"
@@ -31,5 +32,27 @@
                     Your browser does not support the video tag.
             </video>
 
+        <object width="100%" height="500px" data="index.html"></object>
+
     </body>
+
+
+    <?xml version="1.0" encoding="UTF-8" ?>
+    <rss version="2.0">
+        <channel>
+            <title>W3Schools Home Page</title>
+            <link>https://www.w3schools.com</link>
+            <description>Free web building tutorials</description>
+            <item>
+                <title>RSS Tutorial</title>
+                <link>https://www.w3schools.com/xml/xml_rss.asp</link>
+                <description>New RSS tutorial on W3Schools</description>
+            </item>
+            <item>
+                <title>XML Tutorial</title>
+                <link>https://www.w3schools.com/xml</link>
+                <description>New XML tutorial on W3Schools</description>
+            </item>
+        </channel>
+    </rss>
 </html>
