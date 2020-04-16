@@ -1,0 +1,103 @@
+body{
+    background-image: url('dark_wood.png')
+}
+
+p{
+    font-weight: bold;
+    color: white; 
+    font-family: "Arial"; 
+        
+}
+
+h3{
+    color: #FFBC00; 
+    font-size: 40px; 
+    font-family: "Passion One"; 
+    margin-bottom: 0px; 
+    text-decoration: underline overline;
+}
+
+ul{
+    list-style-type: none;
+    padding-left: 0px; 
+}
+a{
+    color: white; 
+    font-weight: bold; 
+    font-size: 24px;
+}
+
+h1::first-letter {
+    font-weight: bold;
+    -webkit-initial-letter: 3 1;
+    initial-letter: 2 1;
+}
+
+p.small {
+    font-variant: small-caps;
+}
+
+h3.a {
+    font: italic bold 28px/30px Georgia, serif;
+}
+
+/* Some new features to add: h1::first-letter, border-color:, border-style
+                             font-variant:, font: property, letter-spacing:,
+                             filter: brightness(120%), text-decoration:...
+}
+
+*/
+#Header{
+    width: 500px; 
+    margin-left: auto; 
+    margin-right: auto; 
+    margin-bottom: 10px; 
+    border: solid 8px black; 
+    text-align: center;
+    background-color: #8E41D5;
+    border-color:#FFBC00;
+    border-style: dotted
+
+}
+
+#Header h1{
+    font-size: 60px; 
+    font-family: "Passion One"; 
+    color: #FFBC00; 
+    font-weight: bold;
+    filter: brightness(120%)
+}
+
+#LeftNav{
+    width: 400px; 
+    margin-left: auto; 
+    margin-right: auto; 
+    margin-bottom: 10px; 
+    border: solid 8px black;
+    float: left; 
+    text-align: center;
+    padding-bottom: 8px;
+    background-color: #8E41D5;
+    letter-spacing: 2px;
+}
+
+#Content{
+    width: 700px; 
+    margin-left: auto; 
+    margin-right: auto; 
+    margin-bottom: 10px; 
+    border:solid 8px black; 
+    text-align:center;
+    padding: 15px;
+    background-color: #8E41D5;
+}
+
+#Footer{
+    border:solid 8px black; 
+    margin-left: auto; 
+    margin-right: auto; 
+    margin-bottom: 10px; 
+    text-align:center;
+    background-color: #8E41D5;
+}
+
