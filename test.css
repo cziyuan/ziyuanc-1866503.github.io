@@ -27,27 +27,25 @@ a{
     font-size: 24px;
 }
 
-h1::first-letter {
+/* Some new features to add: h1::first-letter, border-color:, border-style
+                             font-variant:, font: property, letter-spacing:,
+                             filter: brightness(120%), text-decoration:...
+*/
+#Header h1:first-letter {
     font-weight: bold;
     -webkit-initial-letter: 3 1;
     initial-letter: 2 1;
 }
 
-/* There is slight modification to the .html to make some css styles work, 
-    like the p.small, and h3.a, html file is uploaded to GitHub as well. 
-*/
-p.small {
+#Footer p {
     font-variant: small-caps;
 }
 
-h3.a {
+#Footer h3 {
     font: italic bold 28px/30px Georgia, serif;
+    text-decoration: none;
 }
 
-/* Some new features to add: h1::first-letter, border-color:, border-style
-                             font-variant:, font: property, letter-spacing:,
-                             filter: brightness(120%), text-decoration:...
-*/
 #Header{
     width: 500px; 
     margin-left: auto; 
@@ -58,7 +56,6 @@ h3.a {
     background-color: #8E41D5;
     border-color:#FFBC00;
     border-style: dotted
-
 }
 
 #Header h1{
