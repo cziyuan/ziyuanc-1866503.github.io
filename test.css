@@ -33,6 +33,9 @@ h1::first-letter {
     initial-letter: 2 1;
 }
 
+/* There is slight modification to the .html to make some css styles work, 
+    like the p.small, and h3.a, html file is uploaded to GitHub as well. 
+*/
 p.small {
     font-variant: small-caps;
 }
@@ -44,8 +47,6 @@ h3.a {
 /* Some new features to add: h1::first-letter, border-color:, border-style
                              font-variant:, font: property, letter-spacing:,
                              filter: brightness(120%), text-decoration:...
-}
-
 */
 #Header{
     width: 500px; 
