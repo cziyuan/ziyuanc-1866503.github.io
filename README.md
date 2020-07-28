@@ -1,2 +1,2 @@
-# ziyuanc-1866503.github.io
+# ziyuanc.github.io
  info 101 stuff
